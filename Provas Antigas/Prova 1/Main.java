@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         List<Veiculo> veiculos = new ArrayList<>(3);
-       // Em vez do loop for:
+      
        veiculos.add(new Veiculo("ABC1234", "Gol", "economico"));
        veiculos.add(new Veiculo("DEF5678", "Renegade", "suv", 5000));
        veiculos.add(new Veiculo("GHI9012", "BMW X6", "luxo"));
